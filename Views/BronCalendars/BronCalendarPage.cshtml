@@ -1,0 +1,39 @@
+﻿@model WorkCalendarik.Domain.ViewModels.BronCalendars.BronCalendarPageViewModel
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Продажа";
+}
+
+<section class="section-body">
+    <section class="section glow">
+        <div class="post">
+            <div class="post-header">
+                <h3>@Model.Name</h3>
+            </div>
+            <div class="post-details">
+                <div class="post-images">
+                    <img id="main-image" src="@Model.ImagesPaths.FirstOrDefault()" alt="@Model.Name" class="main-image">
+                    <div class="thumbnail-container">
+                        @foreach (var picture in Model.ImagesPaths)
+                        {
+                            <img src="@picture" alt="Thumbnail" class="thumbnail" onclick="changeImage(this)">
+                        }
+                    </div>
+                    
+                    <script>
+                        function changeImage(thumbnail) {
+                            const mainImage = document.getElementById("main-image");
+                            mainImage.src = thumbnail.src;
+                        }
+                    </script>   
+                </div>
+
+                <div class="post-info">
+                    <h3>@Model.Name</h3>
+                    <p class="description"><strong>Описание: </strong>@Model.Info</p>
+                    <p><strong>Цена: </strong>@Model.Price р</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>

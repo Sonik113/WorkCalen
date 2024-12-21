@@ -1,0 +1,99 @@
+﻿@{
+    ViewData["Title"] = "Контакты";
+}
+<h1>@ViewData["Title"]</h1>
+
+<section class="section-body">
+    <section id="countries-main" class="section glow" style="background-color: green">
+        <div class="container">
+            <h1>Мы - всегда в центре.</h1>
+            <p class="p2">
+                Наши сервисы расположены в самом центре Тирасполя!
+            </p>
+            <div class="map"> 
+                <iframe
+                    id="yandex-map"
+                    src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A67750b5248913c6e43ca3fda0affec3160319e6545d9a655ade7ac8a1d6f5edd&amp;width=100%25&amp;height=500&amp;lang=ru_RU&amp;scroll=true"
+                    width="100%"
+                    height="500">
+                </iframe>
+            </div>
+        </div>
+        <div class="container-section">
+            <p class="p2">
+                Написать сообщение
+            </p>
+            <div class="block-message">
+                <p style="margin-bottom: 0">Вы можете написать нам на почту здесь:</p>
+                <div class="message-text" style="margin-top: 0">
+                    <textarea class="text" style="padding: 5px"></textarea>
+                </div>
+                <div class="message-button">
+                    <button class="button" type="submit">Отправить</button> </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacts" class="section glow" style="background-color: green">
+        <div class="container">
+            <h1>Контакты</h1>
+            <div class="contacts">
+                <div class="contactsItem" onclick="myhref('https://t.me/Ilya_arria');">
+                    <img src="/images/tg.png" class="contacts-image" alt="Телеграм"/>
+                    <h3>TELEGRAM</h3>
+                </div>
+                <div class="contactsItem" onclick="myhref('https://www.instagram.com/ilya_arria/');">
+                    <img src="/images/inst.png" class="contacts-image" alt="Инстаграм"/>
+                    <h3>INSTAGRAM</h3>
+                </div>
+                <div class="contactsItem" onclick="myhref('mailto:ilya.cheban.041199@gmail.com');">
+                    <img src="/images/gmail.png" class="contacts-image" alt="Почта"/>
+                    <h3>G-MAIL</h3>
+                </div>
+                <div class="contactsItem" onclick="myhref('https://vk.com/ilyukhaofficial');">
+                    <img src="/images/vk.png" class="contacts-image" alt="Телефон"/>
+                    <h3>VK</h3>
+                </div>
+
+                <script type="text/javascript">
+                    function myhref(web){
+                        window.location.href = web;}
+                </script>
+            </div>
+        </div>
+    </section>
+    
+    <ul id="accordion" class="section" style="background-color: green">
+        <li>
+            <div class="link" style="background-color: darkorange">
+                <p class="p2">Где нас можно найти?</p>
+            </div>
+            <ul class="submenu">
+                <div class="da">
+                    <li>
+                        <div onclick="goToPlacemark(46.836435, 29.628504)">
+                            <h5 style="margin-bottom: 0;">«Офис ООО "WorkCalendarik", Тирасполь»</h5>
+                            <p style="margin: 0; line-height: 1.2">
+                                Адрес: г. Тирасполь, ул. 25 Октября, 118А<br/>
+                                Телефон: +373 (779) 4-36-18<br/>
+                                Время работы: 8:00 - 20:00<br/>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div onclick="goToPlacemark(46.839462, 29.613475)">
+                            <h5 style="margin-bottom: 0;">«Сервис OOO "WorkCalendarik", Восточный корпус Зелёного рынка»</h5>
+                            <p style="margin: 0; line-height: 1.2">
+                                Адрес: г. Тирасполь, ул. Карла Либкнехта, 230<br/>
+                                Телефон: +373 (779) 4-36-18<br/>
+                                Время работы: 8:00 - 20:00<br/>
+                            </p>
+                        </div>
+                    </li>
+                </div>
+            </ul>
+        </li>
+    </ul>
+</section>
+
+<script src="~/js/yandexMaps.js" asp-append-version="true"></script>

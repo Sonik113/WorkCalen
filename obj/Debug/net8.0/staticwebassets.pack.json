@@ -1,0 +1,537 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WorkCalendarik.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WorkCalendarik.mntjv7i50c.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\css\\catalogue.css",
+      "PackagePath": "staticwebassets\\css\\catalogue.css"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\css\\logreg.css",
+      "PackagePath": "staticwebassets\\css\\logreg.css"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\fonts\\Montserrats\\Montserrat-Black.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrats\\Montserrat-Black.ttf"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\fonts\\Montserrats\\Montserrat-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrats\\Montserrat-BlackItalic.ttf"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\fonts\\Montserrats\\Montserrat-Bold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrats\\Montserrat-Bold.ttf"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\fonts\\Montserrats\\Montserrat-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrats\\Montserrat-BoldItalic.ttf"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\fonts\\Montserrats\\Montserrat-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrats\\Montserrat-ExtraBold.ttf"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\fonts\\Montserrats\\Montserrat-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrats\\Montserrat-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\fonts\\Montserrats\\Montserrat-ExtraLight.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrats\\Montserrat-ExtraLight.ttf"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\fonts\\Montserrats\\Montserrat-ExtraLightItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrats\\Montserrat-ExtraLightItalic.ttf"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\fonts\\Montserrats\\Montserrat-Italic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrats\\Montserrat-Italic.ttf"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\fonts\\Montserrats\\Montserrat-Light.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrats\\Montserrat-Light.ttf"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\fonts\\Montserrats\\Montserrat-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrats\\Montserrat-LightItalic.ttf"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\fonts\\Montserrats\\Montserrat-Medium.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrats\\Montserrat-Medium.ttf"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\fonts\\Montserrats\\Montserrat-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrats\\Montserrat-MediumItalic.ttf"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\fonts\\Montserrats\\Montserrat-Regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrats\\Montserrat-Regular.ttf"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\fonts\\Montserrats\\Montserrat-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrats\\Montserrat-SemiBold.ttf"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\fonts\\Montserrats\\Montserrat-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrats\\Montserrat-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\fonts\\Montserrats\\Montserrat-Thin.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrats\\Montserrat-Thin.ttf"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\fonts\\Montserrats\\Montserrat-ThinItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrats\\Montserrat-ThinItalic.ttf"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\images\\ImageUser\\admin1.jpg",
+      "PackagePath": "staticwebassets\\images\\ImageUser\\admin1.jpg"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\images\\ImageUser\\foksakirill@gmail.com-avatar.jpg",
+      "PackagePath": "staticwebassets\\images\\ImageUser\\foksakirill@gmail.com-avatar.jpg"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\images\\avatars\\Bepa.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\Bepa.jpg"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\images\\avatars\\bogdan.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\bogdan.jpg"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\images\\avatars\\default.png",
+      "PackagePath": "staticwebassets\\images\\avatars\\default.png"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\images\\avatars\\igor.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\igor.jpg"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\images\\avatars\\ilya.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\ilya.jpg"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\images\\avatars\\katya.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\katya.jpg"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\images\\avatars\\ker.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\ker.jpg"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\images\\avatars\\nikita.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\nikita.jpg"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\images\\avatars\\nikita2.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\nikita2.jpg"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\images\\avatars\\puxlya.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\puxlya.jpg"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\images\\bronCalendars\\default.png",
+      "PackagePath": "staticwebassets\\images\\bronCalendars\\default.png"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\images\\bronCalendars\\prodaja1.jpg",
+      "PackagePath": "staticwebassets\\images\\bronCalendars\\prodaja1.jpg"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\images\\bronCalendars\\prodaja2.jpg",
+      "PackagePath": "staticwebassets\\images\\bronCalendars\\prodaja2.jpg"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\images\\bronCalendars\\prodaja3.jpg",
+      "PackagePath": "staticwebassets\\images\\bronCalendars\\prodaja3.jpg"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\images\\bronCalendars\\prodaja4.jpg",
+      "PackagePath": "staticwebassets\\images\\bronCalendars\\prodaja4.jpg"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\images\\caledarik1.png",
+      "PackagePath": "staticwebassets\\images\\caledarik1.png"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\images\\caledarik2.png",
+      "PackagePath": "staticwebassets\\images\\caledarik2.png"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\images\\caledarik3.png",
+      "PackagePath": "staticwebassets\\images\\caledarik3.png"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\images\\calendar1.jpeg",
+      "PackagePath": "staticwebassets\\images\\calendar1.jpeg"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\images\\calendar2.jpeg",
+      "PackagePath": "staticwebassets\\images\\calendar2.jpeg"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\images\\categories\\cab.jpg",
+      "PackagePath": "staticwebassets\\images\\categories\\cab.jpg"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\images\\categories\\categories.jpg",
+      "PackagePath": "staticwebassets\\images\\categories\\categories.jpg"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\images\\categories\\convertible.jpg",
+      "PackagePath": "staticwebassets\\images\\categories\\convertible.jpg"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\images\\categories\\coupe.jpg",
+      "PackagePath": "staticwebassets\\images\\categories\\coupe.jpg"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\images\\categories\\hatchback.jpg",
+      "PackagePath": "staticwebassets\\images\\categories\\hatchback.jpg"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\images\\categories\\sedan.jpg",
+      "PackagePath": "staticwebassets\\images\\categories\\sedan.jpg"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\images\\categories\\suv.jpg",
+      "PackagePath": "staticwebassets\\images\\categories\\suv.jpg"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\images\\categories\\van.jpg",
+      "PackagePath": "staticwebassets\\images\\categories\\van.jpg"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\images\\categories\\wagon.jpg",
+      "PackagePath": "staticwebassets\\images\\categories\\wagon.jpg"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\images\\da.png",
+      "PackagePath": "staticwebassets\\images\\da.png"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\images\\dogovor.jpg",
+      "PackagePath": "staticwebassets\\images\\dogovor.jpg"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\images\\gmail.png",
+      "PackagePath": "staticwebassets\\images\\gmail.png"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\images\\google.png",
+      "PackagePath": "staticwebassets\\images\\google.png"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\images\\inst.png",
+      "PackagePath": "staticwebassets\\images\\inst.png"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\images\\kachest.jpg",
+      "PackagePath": "staticwebassets\\images\\kachest.jpg"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\images\\kalendari.jpg",
+      "PackagePath": "staticwebassets\\images\\kalendari.jpg"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\images\\manycalendar.jpg",
+      "PackagePath": "staticwebassets\\images\\manycalendar.jpg"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\images\\phone.png",
+      "PackagePath": "staticwebassets\\images\\phone.png"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\images\\tg.png",
+      "PackagePath": "staticwebassets\\images\\tg.png"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\images\\vk.png",
+      "PackagePath": "staticwebassets\\images\\vk.png"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\images\\вк-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\вк-removebg-preview.png"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\js\\catalogue.js",
+      "PackagePath": "staticwebassets\\js\\catalogue.js"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\js\\dropdownList.js",
+      "PackagePath": "staticwebassets\\js\\dropdownList.js"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\js\\logreg.js",
+      "PackagePath": "staticwebassets\\js\\logreg.js"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\js\\swiper.js",
+      "PackagePath": "staticwebassets\\js\\swiper.js"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\js\\yandexMaps.js",
+      "PackagePath": "staticwebassets\\js\\yandexMaps.js"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WorkCalendarik.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WorkCalendarik.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WorkCalendarik.props",
+      "PackagePath": "build\\WorkCalendarik.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WorkCalendarik.props",
+      "PackagePath": "buildMultiTargeting\\WorkCalendarik.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WorkCalendarik.props",
+      "PackagePath": "buildTransitive\\WorkCalendarik.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "WorkCalendarik.Controllers.BronCalendarsController",
+    "Method": "BronCalendarPage",
+    "RelativePath": "BronCalendars/BronCalendarPage",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WorkCalendarik.Controllers.BronCalendarsController",
+    "Method": "ListOfBronCalendars",
+    "RelativePath": "BronCalendars/ListOfBronCalendars",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

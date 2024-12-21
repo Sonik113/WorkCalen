@@ -1,0 +1,219 @@
+﻿@{
+    ViewData["Title"] = "Главная";
+}
+
+<section class="section-body">
+    <section class="main-section">
+        <div style="width: 75%; align-content: center;">
+            <h1 class="main">ЗАКАЗ<br>КАЧЕСТВЕННЫХ<br>КАЛЕНДАРЕЙ</h1>
+        </div>
+        <div class="main-item">
+            <h4>Качество</h4>
+            <p>Cамые качественные календари только у нас!</p>
+            <img src="/images/calendar1.jpeg" alt="Заголовок1" style="width: 100%; aspect-ratio: 3/4; border-radius: 15px;" />
+        </div>
+        <div class="main-item" id="second-main-item">
+            <h4>Надёжность</h4>
+            <p style="line-height: 0.9;">Самые надёжные,красивые и оригинальные календари!</p>
+            <img src="/images/calendar2.jpeg" alt="Заголовок2" style="width: 100%; aspect-ratio: 3/4; border-radius: 15px;" />
+        </div>
+    </section>
+
+    <section id="about" class="section glow" style="background-color: green">
+        <div class="container">
+            <h1>Планируй с удовольствием!</h1>
+            <p class="p2">
+                Мы прилагаем все силы, чтобы сделать ваш день счастливее.
+            </p>
+            <img src="/images/manycalendar.jpg" class="section-image" style="width: 100%;" alt="О нас" />
+            <h3 style="text-align: center; align-self: center">Наша команда</h3>
+
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Слайд с фотографией и текстом</title>
+                <style>
+                    .slideshow-container {
+                        position: relative;
+                        width: 100%;
+                        max-width: 600px;
+                        margin: auto;
+                        overflow: hidden;
+                        height: 600px;
+                    }
+
+                    .slide {
+                        display: flex;
+                        align-items: center;
+                        width: 100%;
+                        height: 100%;
+                        position: absolute;
+                        top: 100%;
+                        transition: top 0.5s;
+                    }
+
+                        .slide.active {
+                            top: 0;
+                        }
+
+                        .slide.prev {
+                            top: -100%;
+                        }
+
+                        .slide img {
+                            width: 40%;
+                            height: auto;
+                            object-fit: cover;
+                            margin-right: 20px;
+                            border: 5px solid #ccc;
+                            box-shadow: 0 0 20px rgba(255, 255, 0, 1); 
+                        }
+
+                    .slide-text {
+                        width: 60%;
+                        color: rgba(255, 255, 255, 1); /* Белый цвет текста */
+                        text-shadow: 2px 2px 4px rgba(0,0,0,0.6); /* Тень для текста */
+                    }
+                </style>
+            </head>
+            <body>
+                <div class="slideshow-container">
+                    <div class="slide active">
+                        <img src="./images/avatars/puxlya.jpg" class="glow">
+                        <div class="slide-text">
+                            <h2>Пухля</h2>
+                            <p>Генеральный директор</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="./images/avatars/ilya.jpg" class="glow">
+                        <div class="slide-text">
+                            <h2>Илья</h2>
+                            <p>Заместитель Генерального директора</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="./images/avatars/ker.jpg" class="glow">
+                        <div class="slide-text">
+                            <h2>Кирилл</h2>
+                            <p>Главный разработчик дизайнов</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="./images/avatars/nikita2.jpg" class="glow">
+                        <div class="slide-text">
+                            <h2>Никита</h2>
+                            <p>Главный креативный директор</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="./images/avatars/katya.jpg" class="glow">
+                        <div class="slide-text">
+                            <h2>Екатерина</h2>
+                            <p>Главный менеджер по связям с общественностью</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="./images/avatars/Bepa.jpg" class="glow">
+                        <div class="slide-text">
+                            <h2>Вера</h2>
+                            <p>Главный директор по управлению персоналом</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="./images/avatars/bogdan.jpg" class="glow">
+                        <div class="slide-text">
+                            <h2>Богдан</h2>
+                            <p>Менеджер по рекламе</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="./images/avatars/igor.jpg" class="glow">
+                        <div class="slide-text">
+                            <h2>Игорь</h2>
+                            <p>Глава охраны</p>
+                        </div>
+                    </div>
+                </div>
+
+                <script>
+                    let currentIndex = 0;
+                    let slides = document.querySelectorAll(".slide");
+
+                    function nextSlide() {
+                        slides[currentIndex].classList.remove("active");
+                        slides[currentIndex].classList.add("prev");
+
+                        currentIndex = (currentIndex + 1) % slides.length;
+
+                        slides[currentIndex].classList.add("active");
+
+                        setTimeout(() => {
+                            slides.forEach(slide => slide.classList.remove("prev"));
+                        }, 100);
+                    }
+
+                    setInterval(nextSlide, 5000);
+                </script>
+            </body>
+
+
+
+
+
+            <section id="popular" class="section glow" style="background-color: orange">
+        <div class="container">
+            <h1>Услуги</h1>
+            <p class="p2">
+                Качественный календарь для ваших ежедневных планов
+            </p>
+            <div class="section-side">
+                <div class="section-left">
+                    <p>
+                        Наша компания предлагает широкий ассортимент календарей на любой вкус. Начиная от природы заканчивая космическими чудесами — у нас вы найдете идеальный вариант. Мы постоянно обновляем календари, чтобы предоставлять только красивые,качественные, уникальные,календари в ваши дома.
+                    </p>
+                </div>
+                <div class="section-right">
+                    <img src="images/kalendari.jpg" />
+                </div>
+            </div>
+            <div class="section-side">
+                <div class="section-right">
+                    <img src="images/kachest.jpg" />
+                </div>
+                <div class="section-left">
+                    <p>
+                        Каждый календарь проходит качественную проверку, что гарантирует его полную красоту и надежность.
+                    </p>
+                </div>
+            </div>
+            <div class="section-side">
+                <div class="section-left">
+                    <p>
+                        Все наши календари уникальны, чтобы вы могли наслаждаться изображением без лишних волнений. Мы предлагаем хорошие условия уникальности, которые обеспечивают радость в любой ситуации. Ваше настроение — наш приоритет.
+                    </p>
+                </div>
+                <div class="section-right">
+                    <img src="images/dogovor.jpg" />
+                </div>
+            </div>
+            <div class="service">
+                <div class="serviceItem">
+                    <img src="/images/caledarik1.png" class="service-image" alt="Выбор календарей" />
+                    <h3>Большой выбор календарей</h3>
+                    <p>Пейзажи природы, удивительные обитатели земли, космос и многое другое</p>
+                </div>
+                <div class="serviceItem">
+                    <img src="/images/caledarik2.png" class="service-image" alt="Настроение" />
+                    <h3>Все календари заряжены на позитив</h3>
+                    <p>Начинайте день с качествееного и красивого изображения в календаре</p>
+                </div>
+                <div class="serviceItem">
+                    <img src="/images/caledarik3.png" class="service-image" alt="Гарантия" />
+                    <h3>Гарантия в течение одного месяца</h3>
+                    <p>Все купленные календари ,могут быть заменены если случиться брак</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
