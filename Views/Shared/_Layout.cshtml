@@ -45,7 +45,24 @@
                         <div>
                             @if (User.Identity.IsAuthenticated)
                             {
-                                <a class="nav-link text-dark" id="click-to-hide" onclick="window.location.href = '@Url.Action("Logout", "Home")'">Logout</a>
+                                <ul class="menu">
+                                    <li>
+                                        @if (User.Claims.Last().Value.ToString() != null)
+                                        {
+                                            <img src="@User.Claims.Last().Value.ToString()" alt="Avatar" class="avatar-image" id="avatar" />
+                                        }
+                                        else
+                                        {
+                                            <img src="/images/avatars/default.png" alt="Avatar" class="avatar-image" id="avatar" />
+                                        }
+
+                                        <ul id="dropdown-menu" class="dropdown-menu">
+                                            <li><a href="@Url.Action("AccountPage", "Account", new { email = User.Claims.First().Value.ToString() })">Личный кабинет</a></li>
+                                            <li><a href="@Url.Action("Cart", "Cart", new { email = User.Claims.First().Value.ToString() })">Корзина</a></li>
+                                            <li><a class="nav-link" id="click-to-hide" onclick="window.location.href = '@Url.Action("Logout", "Home")'">Выход</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
                             }
                             @if (!User.Identity.IsAuthenticated)
                             {

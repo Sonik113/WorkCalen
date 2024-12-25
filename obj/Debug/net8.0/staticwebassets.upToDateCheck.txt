@@ -54,6 +54,7 @@ wwwroot\images\gmail.png
 wwwroot\images\google.png
 wwwroot\images\ImageUser\admin1.jpg
 wwwroot\images\ImageUser\foksakirill@gmail.com-avatar.jpg
+wwwroot\images\ImageUser\ilya.cheban.041199@gmail.com-avatar.jpg
 wwwroot\images\inst.png
 wwwroot\images\kachest.jpg
 wwwroot\images\kalendari.jpg

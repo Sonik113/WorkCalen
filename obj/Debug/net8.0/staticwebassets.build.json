@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RpxwASuP3vMrWDiKAnSz9l1asx2Wa4S60qg4u4wLDSU=",
+  "Hash": "EA0WY1Jd0wyrkZPf1/it6h5cas7fEAzuPb1uw/Qw2is=",
   "Source": "WorkCalendarik",
   "BasePath": "_content/WorkCalendarik",
   "Mode": "Default",
@@ -115,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "p8mzye9f48",
-      "Integrity": "p/poIZ349zf1zXXINNv1eLkNT2jewj0dnifYDSYJe3Q=",
+      "Fingerprint": "wt6r1iw079",
+      "Integrity": "rHs2VISMZH+KSAKl/mM3IMhwo9wJEAEin24EiPxtxH0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1233,6 +1233,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\ImageUser\\foksakirill@gmail.com-avatar.jpg"
+    },
+    {
+      "Identity": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\images\\ImageUser\\ilya.cheban.041199@gmail.com-avatar.jpg",
+      "SourceId": "WorkCalendarik",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\",
+      "BasePath": "_content/WorkCalendarik",
+      "RelativePath": "images/ImageUser/ilya.cheban.041199@gmail.com-avatar#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "40xwxknb5l",
+      "Integrity": "7M9lKyg1V2WSn3mYpqAByOiXHhVkZo2EoW1xDhu5I/8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\ImageUser\\ilya.cheban.041199@gmail.com-avatar.jpg"
     },
     {
       "Identity": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\images\\inst.png",
@@ -2902,7 +2923,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10104"
+          "Value": "11072"
         },
         {
           "Name": "Content-Type",
@@ -2910,11 +2931,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"p/poIZ349zf1zXXINNv1eLkNT2jewj0dnifYDSYJe3Q=\""
+          "Value": "\"rHs2VISMZH+KSAKl/mM3IMhwo9wJEAEin24EiPxtxH0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Dec 2024 07:18:33 GMT"
+          "Value": "Wed, 25 Dec 2024 19:45:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2924,12 +2945,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-p/poIZ349zf1zXXINNv1eLkNT2jewj0dnifYDSYJe3Q="
+          "Value": "sha256-rHs2VISMZH+KSAKl/mM3IMhwo9wJEAEin24EiPxtxH0="
         }
       ]
     },
     {
-      "Route": "css/site.p8mzye9f48.css",
+      "Route": "css/site.wt6r1iw079.css",
       "AssetFile": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2939,7 +2960,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10104"
+          "Value": "11072"
         },
         {
           "Name": "Content-Type",
@@ -2947,11 +2968,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"p/poIZ349zf1zXXINNv1eLkNT2jewj0dnifYDSYJe3Q=\""
+          "Value": "\"rHs2VISMZH+KSAKl/mM3IMhwo9wJEAEin24EiPxtxH0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Dec 2024 07:18:33 GMT"
+          "Value": "Wed, 25 Dec 2024 19:45:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2961,7 +2982,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "p8mzye9f48"
+          "Value": "wt6r1iw079"
         },
         {
           "Name": "label",
@@ -2969,7 +2990,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-p/poIZ349zf1zXXINNv1eLkNT2jewj0dnifYDSYJe3Q="
+          "Value": "sha256-rHs2VISMZH+KSAKl/mM3IMhwo9wJEAEin24EiPxtxH0="
         }
       ]
     },
@@ -7316,6 +7337,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-POjNzZQv8v0jdAxPJI5TEdozVGE5I4FSX9JBVju+LE8="
+        }
+      ]
+    },
+    {
+      "Route": "images/ImageUser/ilya.cheban.041199@gmail.com-avatar.40xwxknb5l.jpg",
+      "AssetFile": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\images\\ImageUser\\ilya.cheban.041199@gmail.com-avatar.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21106"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7M9lKyg1V2WSn3mYpqAByOiXHhVkZo2EoW1xDhu5I/8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Dec 2024 19:49:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "40xwxknb5l"
+        },
+        {
+          "Name": "label",
+          "Value": "images/ImageUser/ilya.cheban.041199@gmail.com-avatar.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7M9lKyg1V2WSn3mYpqAByOiXHhVkZo2EoW1xDhu5I/8="
+        }
+      ]
+    },
+    {
+      "Route": "images/ImageUser/ilya.cheban.041199@gmail.com-avatar.jpg",
+      "AssetFile": "E:\\Работы для технаря\\практика\\Calendar\\WorkCalendarik\\wwwroot\\images\\ImageUser\\ilya.cheban.041199@gmail.com-avatar.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21106"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7M9lKyg1V2WSn3mYpqAByOiXHhVkZo2EoW1xDhu5I/8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Dec 2024 19:49:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7M9lKyg1V2WSn3mYpqAByOiXHhVkZo2EoW1xDhu5I/8="
         }
       ]
     },

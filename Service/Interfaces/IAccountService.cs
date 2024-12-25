@@ -15,4 +15,8 @@ public interface IAccountService
     Task<BaseResponse<ClaimsIdentity>> ConfirmEmail(ConfirmEmailViewModel model, string code, string confirmCode);
     
     Task<BaseResponse<ClaimsIdentity>> IsCreatedAccount(User model);
+
+    Task<BaseResponse<User>> GetAccountByEmail(string email);
+
+    Task<BaseResponse<User>> UpdateAccount(User user);
 }

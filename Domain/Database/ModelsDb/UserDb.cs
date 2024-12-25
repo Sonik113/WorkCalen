@@ -26,7 +26,7 @@ public class UserDb
     public string? ImagePath { get; set; }
 
     [Column("createdat")]
-    public DateTime CreatedAt { get; set; }
+    public DateTime? CreatedAt { get; set; }
 
     //public ICollection<RequestDb> Rates { get; set; }
 }

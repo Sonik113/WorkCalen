@@ -1,4 +1,5 @@
 ﻿using System.Security.Claims;
+using AutoMapper;
 using FluentValidation;
 using MailKit.Net.Smtp;
 using Microsoft.EntityFrameworkCore;
@@ -6,6 +7,7 @@ using MimeKit;
 using WorkCalendarik.Domain.Database.Entities;
 using WorkCalendarik.Domain.Database.ModelsDb;
 using WorkCalendarik.Domain.Database.Responses;
+using WorkCalendarik.Domain.Database.Storage;
 using WorkCalendarik.Domain.Helpers;
 using WorkCalendarik.Domain.Interfaces;
 using WorkCalendarik.Domain.Validation.Validators;
@@ -18,16 +20,20 @@ public class AccountService : IAccountService
 {
     private string _accountName {  get; set; }
 
-    private readonly IBaseStorage<UserDb> _userStorage;
+    private readonly UserStorage _userStorage;
 
     private readonly LoginValidator _validationRulesLogin;
     private readonly RegisterValidator _validationRulesRegister;
+    private readonly UserValidator _validationRulesUser;
+    private readonly IMapper _mapper;
 
-    public AccountService(IBaseStorage<UserDb> userStorage)
+    public AccountService(IBaseStorage<UserDb> userStorage, IMapper mapper)
     {
-        _userStorage = userStorage;
+        _userStorage = userStorage as UserStorage;
+        _mapper = mapper;
         _validationRulesLogin = new LoginValidator();
         _validationRulesRegister = new RegisterValidator();
+        _validationRulesUser = new UserValidator();
     }
 
     public async Task<BaseResponse<ClaimsIdentity>> Login(LoginViewModel model)
@@ -52,7 +58,8 @@ public class AccountService : IAccountService
                 Login = userDb.Login,
                 Email = userDb.Email,
                 ImagePath = userDb.ImagePath,
-                Role = userDb.Role
+                Role = userDb.Role,
+                CreatedAt = userDb.CreatedAt
             });
 
             return new BaseResponse<ClaimsIdentity>
@@ -151,7 +158,8 @@ public class AccountService : IAccountService
                 Login = userDb.Login,
                 Email = userDb.Email,
                 ImagePath = userDb.ImagePath,
-                Role = userDb.Role
+                Role = userDb.Role,
+                CreatedAt = userDb.CreatedAt
             });
 
             return new BaseResponse<ClaimsIdentity>
@@ -243,6 +251,80 @@ public class AccountService : IAccountService
             return new BaseResponse<ClaimsIdentity>()
             {
                 Description = ex.Message,
+                StatusCode = StatusCode.InternalServerError
+            };
+        }
+    }
+    public async Task<BaseResponse<User>> GetAccountByEmail(string email)
+    {
+        try
+        {
+            var userDb = await _userStorage.GetByEmailAsync(email);
+            if (userDb == null)
+            {
+                return new BaseResponse<User>
+                {
+                    Description = "Пользователь не найден",
+                    StatusCode = StatusCode.NotFound
+                };
+            }
+
+            var result = _mapper.Map<User>(userDb);
+
+            return new BaseResponse<User>
+            {
+                Data = result,
+                StatusCode = StatusCode.OK
+            };
+        }
+        catch (Exception e)
+        {
+            return new BaseResponse<User>
+            {
+                Description = e.Message,
+                StatusCode = StatusCode.InternalServerError
+            };
+        }
+    }
+
+    public async Task<BaseResponse<User>> UpdateAccount(User user)
+    {
+        try
+        {
+            var userDb = await _userStorage.Get(user.Id);
+
+            if (userDb == null)
+            {
+                return new BaseResponse<User>
+                {
+                    Description = "Пользователь не найден",
+                    StatusCode = StatusCode.NotFound
+                };
+            }
+
+            userDb.Login = user.Login;
+            if (!string.IsNullOrEmpty(user.Password))
+            {
+                userDb.Password = HashPasswordHelper.HashPassword(user.Password);
+            }
+            userDb.Role = user.Role;
+            userDb.ImagePath = user.ImagePath;
+            userDb.Email = user.Email;
+            userDb.CreatedAt = user.CreatedAt;
+
+            await _userStorage.Update(userDb);
+
+            return new BaseResponse<User>
+            {
+                Data = _mapper.Map<User>(userDb),
+                StatusCode = StatusCode.OK
+            };
+        }
+        catch (Exception e)
+        {
+            return new BaseResponse<User>
+            {
+                Description = "Внутренняя ошибка сервера",
                 StatusCode = StatusCode.InternalServerError
             };
         }

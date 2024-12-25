@@ -42,4 +42,10 @@ public class UserStorage : IBaseStorage<UserDb>
         
         return item;
     }
+
+    public async Task<UserDb?> GetByEmailAsync(string email)
+    {
+        return await _db.UsersDb
+            .FirstOrDefaultAsync(u => u.Email == email);
+    }
 }

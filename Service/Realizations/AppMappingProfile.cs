@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using WorkCalendarik.Domain.Database.Entities;
 using WorkCalendarik.Domain.Database.ModelsDb;
+using WorkCalendarik.Domain.ViewModels.Account;
 using WorkCalendarik.Domain.ViewModels.BronCalendars;
 using WorkCalendarik.Domain.ViewModels.LogAndReg;
 
@@ -18,5 +19,8 @@ public class AppMappingProfile : Profile
         CreateMap<BronCalendar, BronCalendarDb>().ReverseMap();
         CreateMap<BronCalendar, BronCalendarPageViewModel>().ReverseMap();
         CreateMap<BronCalendar, BronCalendarForBronCalendarsViewModel>().ReverseMap();
+        CreateMap<User, AccountPageViewModel>()
+            .ForMember(dest => dest.Password, opt => opt.Ignore());
+        CreateMap<UserDb, AccountPageViewModel>().ReverseMap();
     }
 }
