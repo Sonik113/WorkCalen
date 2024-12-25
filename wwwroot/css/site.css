@@ -624,3 +624,176 @@ footer .footer-right a {
   line-height: 1.5;
   display: -webkit-box;
 }
+
+.avatar-image {
+    width: 48px;
+    height: 48px;
+    border-radius: 64px;
+}
+
+
+.menu {
+    display: block;
+    margin: 0;
+    position: relative;
+    padding: 0;
+    cursor: pointer;
+}
+
+    .menu li ul li {
+        border-radius: .25rem;
+    }
+
+        .menu li ul li:hover {
+            background-color: #faefdf;
+            transition-duration: 0.2s;
+        }
+
+    .menu > li > a {
+        color: white;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        padding: 50%;
+    }
+
+    .menu ul {
+        position: absolute;
+        padding: 0;
+        width: 100%;
+        left: -110%;
+        margin-top: 15%;
+        display: none; /* Скрыто по умолчанию */
+    }
+
+        .menu ul a {
+            color: #000;
+            display: block;
+            width: 100%;
+            text-align: center;
+            justify-content: center;
+            text-decoration: none;
+            padding: 12px 0;
+        }
+
+
+/* Карточка профиля */
+.account-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.account-header {
+    text-align: center;
+    color: #b73cff;
+    margin-bottom: 20px;
+}
+
+.account-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Изображение профиля */
+.account-image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #b73cff;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.placeholder-image {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    background: #eaeaea;
+    color: #b73cff;
+    border-radius: 50%;
+    border: 3px solid #b73cff;
+}
+
+/* Информация профиля */
+.account-info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    flex-grow: 1;
+}
+
+    .account-info label {
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+        color: #555;
+        min-width: 300px;
+    }
+
+    .account-info input,
+    .account-info select {
+        font-size: 14px;
+        padding: 8px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        width: 100%;
+        box-sizing: border-box;
+        background: #fff;
+        transition: border 0.2s ease;
+    }
+
+        .account-info input:focus,
+        .account-info select:focus {
+            border-color: #b73cff;
+            outline: none;
+        }
+
+/* Действия профиля */
+.account-actions {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+    .account-actions button {
+        padding: 10px 15px;
+        font-size: 14px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+.btn-edit {
+    background-color: #b73cff;
+    color: #fff;
+}
+
+    .btn-edit:hover {
+        background-color: #9e30e6;
+    }
+
+.btn-save {
+    background-color: #4caf50;
+    color: #fff;
+    display: none;
+}
+
+    .btn-save:hover {
+        background-color: #45a049;
+    }
