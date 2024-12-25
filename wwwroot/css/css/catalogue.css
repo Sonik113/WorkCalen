@@ -1,0 +1,509 @@
+﻿/* Сетка */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Автоматически подгоняет элементы */
+    gap: 15px; /* Расстояние между карточками */
+    padding: 20px;
+}
+
+.container-categories {
+    margin-top: 40px;
+    width: 100%;
+    height: fit-content;
+}
+
+/* Карточка */
+.card-category {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+    border: violet 1px solid;
+}
+/* Изображение
+*/
+.card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+/* Название и текстовый блок */
+.card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.0); /* Начальная прозрачность */
+    transition: background 0.5s ease-in-out;
+}
+
+/* Название (всегда видно внизу) */
+.card-title {
+    font-size: 1.1rem;
+    color: #fff;
+    margin: 0;
+    padding: 5px;
+    background: rgb(183, 60, 255, 0.8); /* Черный полупрозрачный фон */
+    width: 100%;
+    text-align: center;
+    transition: all 0.4s ease-in-out;
+    font-family: Montserratus;
+}
+/* Описание (скрыто до наведения) */
+.card-description {
+    font-size: 0.8rem;
+    color: #fff;
+    text-align: center;
+    margin-top: 0;
+    display: none;
+    font-family: MontserratusLight;
+
+}
+/* При наведении */
+.card-category:hover .card-image {
+    transform: scale(1.1); /* Увеличение картинки */
+}
+.card-category:hover .card-overlay {
+    background: rgba(0, 0, 0, 0.6); /* Затемнение всей карточки */
+    justify-content: center; /* Центрируем контент */
+}
+.card-category:hover .card-title {
+    transform: translateY(-50%); /* Поднимаем название */
+    background: none; /* Убираем фон у названия */
+}
+.card-category:hover .card-description {
+    display: block; /* Показываем описание */
+}
+
+.container-list-posts {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.container-filter-posts {
+    margin-top: 30px;
+}
+
+.container-filter-posts {
+    display: flex;
+    padding: 20px;
+}
+
+/* Фильтры (левая часть) */
+.filter {
+    flex: 1;
+    background-color: #ffffff;
+    margin: 0 15px 0 0;
+    padding: 30px;
+    border-radius: 8px;
+    border: violet 1px solid;
+    height: fit-content;
+}
+
+/* Список туров (правая часть) */
+.container-posts {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Typ */
+.list-posts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.post-item {
+    display: flex;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    position: relative;
+    border: violet 1px solid;
+    flex-direction: column;
+    aspect-ratio: 10 / 15;
+    cursor: pointer;
+    width: calc(33.33% - 10px); /* Для 3 элементов в строке */
+    box-sizing: border-box;
+}
+
+.available-status {
+    border-radius: 64px;
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.post-item-btn {
+    width: 100%;
+    height: auto;
+    padding: 8px;
+    border: 0;
+    background-color: #9710e0;
+    color: white;
+}
+
+.post-item p {
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Количество строк */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin: 0 0 10px 0;
+}
+
+/* Изображение отеля */
+.item-post-img {
+    flex-shrink: 0;
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+/* Информация о туре */
+.item-info {
+    flex-grow: 2;
+}
+.item-info h2 {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #333333;
+}
+
+/* Цены */
+table {
+    margin-left: auto;
+    border-collapse: collapse;
+    font-size: 16px;
+    color: #333333;
+}
+
+table td {
+    padding: 5px 10px;
+    text-align: right;
+}
+
+/* Звезды */
+.item-stars {
+    FONT-WEIGHT: 800;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    color: #F213DD;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(180, 20, 200, 0.65);
+    border-radius: 6px;
+    padding: 4px 4px 6px 6px;
+}
+
+.star {
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    filter: hue-rotate(280deg) contrast(4) brightness(0.45) saturate(5);
+    margin-right: 2px;
+}
+
+/* Блок сортировки */
+.sorts {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: violet 1px solid;
+}
+
+.filter-container .title {
+    margin-bottom: 19px;
+    display: flex;
+    justify-content: center;
+}
+.price-filter,
+.fuel-types {
+    margin: 30px 0;
+}
+
+.price-filter input[type="range"] {
+    -webkit-appearance: none; /* Убираем стандартный стиль */
+    width: 100%;
+    height: 8px;
+    background: #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+.price-filter input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #B73CFFCC;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.price-filter input[type="range"]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: #B73CFFCC;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.price-filter input[type="range"]::-ms-thumb {
+    width: 20px;
+    height: 20px;
+    background: #B73CFFCC;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.fuel-types div {
+    margin-bottom: 10px;
+}
+
+.custom-checkbox {
+    display: none;
+}
+
+.custom-checkbox + label {
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    line-height: 20px;
+}
+
+.custom-checkbox + label::before {
+    content: '';
+    position: absolute;
+    Left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    border: 1px solid  #B73CFFCC; /* Цвет рамки */
+    border-radius: 4px;
+    background-color: white;
+    transition: background-color 0.25s ease, border-color 0.25s ease;
+}
+
+.custom-checkbox:checked + label::before {
+    background-color:  #B73CFFCC;
+    border-color:  #B73CFFCC;
+}
+
+.custom-checkbox:checked label::after {
+    content: '';
+    position: absolute;
+    left: 5px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.price-filter div {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid rgba(153, 0, 255, 0.2);
+    border-radius: 4px;
+    margin: 10px 0;
+    background: rgba(153, 0, 255, 0.2);
+    gap: 10px;
+}
+
+.price-filter span {
+    font-size: 14px;
+    font-weight: bold;
+    position: initial;
+}
+
+#arend .price-values {
+    font-weight: bold;
+    color: #62466b;
+    position: initial;
+}
+.filter-button {
+    display: flex;
+    justify-content: center;
+}
+.filter-button button {
+    padding: 15px 15px;
+    background-color: #B73CFFCC;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 20px;
+}
+.filter-button button:hover {
+    background-color: black;
+    transition: 0.2s;
+}
+
+/* Блок сортировки */
+.sorts {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: violet 1px solid;
+    justify-content: right;
+}
+
+.sorts label {
+    font-size: 16px;
+    color: #333333;
+}
+
+.sorts select {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: 0;
+    border-radius: 4px;
+    background-color: transparent;
+    cursor: pointer;
+    justify-self: right;
+    justify-items: right;
+    text-align: right;
+    width: fit-content;
+}
+
+select option {
+    border-top: 0;
+}
+
+.filter-div {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.filter-div input, select {
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: inherit;
+}
+
+.tour {
+    max-width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.tour-images {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.main-image {
+    width: 100%;
+    aspect-ratio: 19/10;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.thumbnail-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.thumbnail {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.2s, border-color 0.2s;
+}
+
+.thumbnail:hover {
+    transform: scale(1.1);
+    border: 2px solid #007bff;
+}
+
+.description {
+    white-space: pre-line;
+}
+
+.tour-info {
+    flex: 2;
+    padding: 20px;
+}
+
+    .tour-info h1 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+    
+    .tour-info p {
+        margin: 10px 0;
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+.post-header {
+    justify-items: center;
+    margin: 30px 0;
+}
+
+
+@font-face {
+    font-family: 'Montserratus';
+    src: url('../fonts/Montserrats/Montserrat-ExtraBold.ttf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MontserratusLight';
+    src: url('../fonts/Montserrats/Montserrat-Light.ttf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h3 {
+    font-family: Montserratus, sans-serif;
+}
+
+h4 {
+    font-family: Montserratus, sans-serif;
+}
+
+h5 {
+    font-family: Montserratus, sans-serif;
+}
