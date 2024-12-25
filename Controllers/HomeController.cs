@@ -80,13 +80,10 @@ public class HomeController : Controller
     {
         if (ModelState.IsValid)
         {
-            // Вызываем сервис для регистрации
             var response = await _accountService.Register(model);
 
-            // Проверяем, успешна ли регистрация
             if (response.StatusCode == Domain.Database.Responses.StatusCode.OK)
             {
-                // Возвращаем форму подтверждения кода только при успешной валидации
                 var confirm = new ConfirmEmailViewModel
                 {
                     Login = model.Login,
@@ -98,16 +95,14 @@ public class HomeController : Controller
                 return Ok(confirm);
             }
 
-            // Если есть ошибки регистрации, добавляем их в ModelState
             ModelState.AddModelError("", response.Description);
         }
 
-        // Возвращаем ошибки валидации
         var errors = ModelState.Values.SelectMany(v => v.Errors)
             .Select(e => e.ErrorMessage)
             .ToList();
 
-        return BadRequest(errors); // Возвращаем ошибки 400 Bad Request
+        return BadRequest(errors);
     }
 
     [HttpPost]
@@ -166,6 +161,7 @@ public class HomeController : Controller
                     ImagePath =
                         @"\" + SaveImageInImageUser(result.Principal.FindFirst("picture")?.Value, result).Result ??
                         @"\images\user.png",
+                    CreatedAt = DateTime.Now.ToUniversalTime(),
                 };
 
                 var response = await _accountService.IsCreatedAccount(model);
